@@ -1,3 +1,10 @@
+base-files (7.1tanglu1) aequorea; urgency=low
+
+  * Initialized for Tanglu
+  * Apply default settings and change names where necessary
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 30 Mar 2013 14:25:36 +0100
+
 base-files (7.1) unstable; urgency=low
 
   * Added Multi-Arch: foreign. This is needed even if base-files is
