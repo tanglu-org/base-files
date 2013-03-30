@@ -5,9 +5,10 @@ Miscellaneous files. These files were written by Ian Murdock
 This package was first put together by Bruce Perens <Bruce@Pixar.com>,
 from his own sources.
 
+It was modified for Tanglu by Matthias Klumpp <mak@debian.org>.
+
 The GNU Public Licenses in /usr/share/common-licenses were taken from
 ftp.gnu.org and are copyrighted by the Free Software Foundation, Inc.
-
 
 Copyright (C) 1995-2011 Software in the Public Interest.
 
