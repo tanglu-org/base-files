@@ -15,8 +15,12 @@ VENDORFILE = debian
 
 VERSION = $(shell cat etc/debian_version)
 
-build:
+build: build-arch build-indep
 	touch build
+
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
 
 clean:
 	rm -f build
