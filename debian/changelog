@@ -1,3 +1,9 @@
+base-files (7.1tanglu2) aequorea; urgency=low
+
+  * Add lsb-release informaton
+
+ -- Matthias Klumpp <mak@debian.org>  Fri, 05 Apr 2013 05:04:30 +0200
+
 base-files (7.1tanglu1) aequorea; urgency=low
 
   * Initialized for Tanglu
