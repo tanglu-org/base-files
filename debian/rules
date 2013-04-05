@@ -65,6 +65,8 @@ endif
 		> debian/tmp/etc/issue.net
 	sed -e "s&#OSNAME#&$(OSNAME)&g" etc/os-release \
 		> debian/tmp/etc/os-release
+	sed -e "s&#OSNAME#&$(OSNAME)&g" etc/lsb-release \
+		> debian/tmp/etc/lsb-release
 	gzip -9 $(docdir)/changelog
 	cd debian/tmp && \
 		md5sum `find usr -type f` > DEBIAN/md5sums
