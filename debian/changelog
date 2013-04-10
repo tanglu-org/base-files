@@ -1,3 +1,9 @@
+base-files (7.1tanglu3) aequorea; urgency=low
+
+  * Add /sbin to PATH
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 10 Apr 2013 22:32:28 +0200
+
 base-files (7.1tanglu2) aequorea; urgency=low
 
   * Add lsb-release informaton
