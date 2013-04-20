@@ -1,3 +1,9 @@
+base-files (7.1tanglu4) aequorea; urgency=low
+
+  * Set Tanglu as dpkg-vendor
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 20 Apr 2013 16:12:59 +0200
+
 base-files (7.1tanglu3) aequorea; urgency=low
 
   * Add /sbin to PATH
