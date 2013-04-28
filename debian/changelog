@@ -1,3 +1,9 @@
+base-files (7.1tanglu4.1) aequorea; urgency=low
+
+  * Install apt config to retrieve changelogs
+
+ -- Matthias Klumpp <matthias@tenstral.net>  Sun, 28 Apr 2013 18:11:02 +0200
+
 base-files (7.1tanglu4) aequorea; urgency=low
 
   * Set Tanglu as dpkg-vendor
