@@ -1,3 +1,10 @@
+base-files (7.2) unstable; urgency=medium
+
+  * Changed issue, issue.net, debian_version and os-release to read "jessie/sid",
+    and dropped VERSION and VERSION_ID from os-release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 05 May 2013 18:19:00 +0200
+
 base-files (7.1) unstable; urgency=low
 
   * Added Multi-Arch: foreign. This is needed even if base-files is

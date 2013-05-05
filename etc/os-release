@@ -1,7 +1,5 @@
-PRETTY_NAME="Debian #OSNAME# 7.0 (wheezy)"
+PRETTY_NAME="Debian #OSNAME# jessie/sid"
 NAME="Debian #OSNAME#"
-VERSION_ID="7.0"
-VERSION="7.0 (wheezy)"
 ID=debian
 ANSI_COLOR="1;31"
 HOME_URL="http://www.debian.org/"
