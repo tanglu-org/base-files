@@ -1,8 +1,14 @@
-base-files (7.1tanglu4.1) aequorea; urgency=low
+base-files (7.1tanglu6) staging; urgency=low
+
+  * Update Tanglu release version
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 21 Dec 2013 12:04:16 +0100
+
+base-files (7.1tanglu5) aequorea; urgency=low
 
   * Install apt config to retrieve changelogs
 
- -- Matthias Klumpp <matthias@tenstral.net>  Sun, 28 Apr 2013 18:11:02 +0200
+ -- Matthias Klumpp <mak@debian.org>  Sun, 28 Apr 2013 18:11:02 +0200
 
 base-files (7.1tanglu4) aequorea; urgency=low
 
