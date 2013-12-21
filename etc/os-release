@@ -1,7 +1,7 @@
-PRETTY_NAME="Tanglu #OSNAME# 1.0 (aequorea)"
-NAME="Tanglu #OSNAME#"
-VERSION_ID="1.0"
-VERSION="1.0 (aequorea)"
+PRETTY_NAME="Tanglu 1.1 (Aequorea Victoria)"
+NAME="Tanglu"
+VERSION_ID="1.1"
+VERSION="1.1 (aequorea)"
 ID=tanglu
 HOME_URL="http://www.tanglu.org/"
 BUG_REPORT_URL="http://bugs.tanglu.org/"
