@@ -1,3 +1,10 @@
+base-files (7.1tanglu8) staging; urgency=low
+
+  * Update Tanglu release to new versioning scheme
+  * Point at Tanglu metadata server for changelogs
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 05 Feb 2014 20:06:42 +0100
+
 base-files (7.1tanglu7) staging; urgency=low
 
   * Update Tanglu release
