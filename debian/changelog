@@ -1,7 +1,21 @@
+base-files (7.3) unstable; urgency=medium
+
+  * Added gshadow entry to default /etc/nsswitch.conf. Closes: #699090.
+  * Update /etc/nsswitch.conf if not modified by the user. Closes: #716786.
+  * Added nsswitch.conf.md5sums which works exactly like profile.md5sums.
+  * Changed debian/check-etc-profile-md5sum to debian/check-md5sum-etc.
+    This is now used twice in debian/rules, for profile and nsswitch.conf.
+  * Build package with -Zgzip to ease bootstrapping. Closes: #740278.
+  * Reformat paragraph in previous changelog to avoid too long lines.
+  * Added build-arch and build-indep targets to debian/rules.
+  * Standards-Version: 3.9.5 (no special changes for this).
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 04 May 2014 14:39:06 +0200
+
 base-files (7.2) unstable; urgency=medium
 
-  * Changed issue, issue.net, debian_version and os-release to read "jessie/sid",
-    and dropped VERSION and VERSION_ID from os-release.
+  * Changed issue, issue.net, debian_version and os-release to read
+    "jessie/sid", and dropped VERSION and VERSION_ID from os-release.
 
  -- Santiago Vila <sanvila@debian.org>  Sun, 05 May 2013 18:19:00 +0200
 
