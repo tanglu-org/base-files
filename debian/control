@@ -3,7 +3,7 @@ Section: admin
 Priority: required
 Maintainer: Matthias Klumpp <mak@debian.org>
 XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 
 Package: base-files
 Provides: base

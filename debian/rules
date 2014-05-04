@@ -15,12 +15,8 @@ VENDORFILE = tanglu
 
 VERSION = $(shell cat etc/debian_version)
 
-build: build-arch build-indep
+build:
 	touch build
-
-build-arch: build-stamp
-build-indep: build-stamp
-build-stamp:
 
 clean:
 	rm -f build
@@ -38,7 +34,8 @@ binary-arch: build
 	cat debian/copyright.in | sed -e "s&#OSNAME#&$(OSNAME)&g" \
 		> $(docdir)/copyright
 	chmod 644 $(docdir)/copyright
-	sh debian/check-etc-profile-md5sum
+	sh debian/check-md5sum-etc profile
+	sh debian/check-md5sum-etc nsswitch.conf
 	sed -e "s/#VENDORFILE#/$(VENDORFILE)/g" debian/postinst.in \
 		> debian/tmp/DEBIAN/postinst
 	chmod 755 debian/tmp/DEBIAN/postinst
@@ -78,10 +75,14 @@ endif
 	cd debian/tmp && chmod 2775 `cat ../2775-dirs`
 	cd debian/tmp && chmod 700 root
 	dpkg-gencontrol -pbase-files
-	dpkg --build debian/tmp ..
+	dpkg-deb --build -Zgzip debian/tmp ..
 
 binary-indep: build
 
 binary: binary-indep binary-arch
+
+build-arch: build
+
+build-indep: build
 
 .PHONY: binary binary-arch binary-indep clean
