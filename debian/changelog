@@ -1,3 +1,16 @@
+base-files (7.3tanglu1) UNRELEASED; urgency=medium
+
+  * Merge from Debian, remaining changes:
+   - Change distribution name where appropriate.
+   - Update issue, issue.net and os-release for Tanglu 1.
+   - Add lsb-release informaton for Tanglu 1.
+   - Set Tanglu as dpkg-vendor.
+   - Install apt config to retrieve changelogs.
+   - Add /usr/local/sbin, /usr/sbin and /sbin to PATH.
+   - Enable colored ls output by default.
+
+ -- Jon Severinsson <jon@severinsson.net>  Sun, 01 Jun 2014 10:00:00 +0200
+
 base-files (7.3) unstable; urgency=medium
 
   * Added gshadow entry to default /etc/nsswitch.conf. Closes: #699090.
