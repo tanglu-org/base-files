@@ -1,4 +1,4 @@
-base-files (7.3tanglu1) UNRELEASED; urgency=medium
+base-files (7.3tanglu1) staging; urgency=medium
 
   * Merge from Debian, remaining changes:
    - Change distribution name where appropriate.
