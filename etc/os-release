@@ -1,5 +1,5 @@
-PRETTY_NAME="Tanglu 1 (Aequorea Victoria)"
-NAME="Tanglu"
+PRETTY_NAME="Tanglu #OSNAME# 1 (Aequorea Victoria)"
+NAME="Tanglu #OSNAME#"
 VERSION_ID="1"
 VERSION="1 (aequorea)"
 ID=tanglu
