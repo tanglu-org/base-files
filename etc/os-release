@@ -1,7 +1,7 @@
-PRETTY_NAME="Tanglu #OSNAME# 1 (Aequorea Victoria)"
+PRETTY_NAME="Tanglu #OSNAME# 2 (Bartholomea Annulata)"
 NAME="Tanglu #OSNAME#"
-VERSION_ID="1"
-VERSION="1 (aequorea)"
+VERSION_ID="2"
+VERSION="2 (bartholomea)"
 ID=tanglu
 HOME_URL="http://www.tanglu.org/"
 BUG_REPORT_URL="http://bugs.tanglu.org/"
