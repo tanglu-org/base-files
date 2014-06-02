@@ -8,6 +8,7 @@ base-files (7.3tanglu1) UNRELEASED; urgency=medium
    - Install apt config to retrieve changelogs.
    - Add /usr/local/sbin, /usr/sbin and /sbin to PATH.
    - Enable colored ls output by default.
+  * Set debian_version to latest incorporated Debian stable release.
 
  -- Jon Severinsson <jon@severinsson.net>  Sun, 01 Jun 2014 10:00:00 +0200
 
