@@ -1,3 +1,12 @@
+base-files (7.1wheezy1) stable; urgency=low
+
+  * Changed /etc/debian_version to 7.1, for Debian 7.1 point release.
+  * Dropped ".0" part from "7.0" in issue, issue.net and os-release,
+    as wheezy is Debian 7, the point releases are 7.x, and we
+    don't want to modify those files at every point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 02 Jun 2013 22:27:00 +0200
+
 base-files (7.1tanglu8) staging; urgency=low
 
   * Update Tanglu release to new versioning scheme
