@@ -5,11 +5,13 @@
 # PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
 # umask 022
 
-# You may uncomment the following lines if you want `ls' to be colorized:
+# Enable basic colors for 'ls' by default
+# (comment this block if you do not want colors)
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
 
+# You may uncomment the following lines to enable 'ls' shortcuts:
 # alias ll='ls $LS_OPTIONS -l'
 # alias l='ls $LS_OPTIONS -lA'
 #

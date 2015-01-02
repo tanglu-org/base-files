@@ -1,7 +1,8 @@
-PRETTY_NAME="Tanglu #OSNAME# 2 (Bartholomea Annulata)"
+PRETTY_NAME="Tanglu #OSNAME# 3 (Chromodoris)"
 NAME="Tanglu #OSNAME#"
-VERSION_ID="2"
-VERSION="2 (bartholomea)"
+VERSION_ID="3"
+VERSION="3 (Chromodoris willani)"
 ID=tanglu
 HOME_URL="http://www.tanglu.org/"
-BUG_REPORT_URL="http://bugs.tanglu.org/"
+SUPPORT_URL="http://tanglu.org/support"
+BUG_REPORT_URL="http://tracker.tanglu.org/"
