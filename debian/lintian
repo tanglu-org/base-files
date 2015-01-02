@@ -3,3 +3,7 @@
 # the /root directory to be more private than /home/* directories.
 #
 base-files: non-standard-dir-perm root/ 0700 != 0755
+
+# This change is intentional, an absolute symlink seems to break
+# dracut. See Debian bug#755394 for details.
+base-files: symlink-should-be-absolute etc/os-release ../usr/lib/os-release
