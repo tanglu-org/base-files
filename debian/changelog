@@ -1,3 +1,10 @@
+base-files (8tanglu1) staging; urgency=medium
+
+  * Merge changes from Debian which are useful for Tanglu as well
+  * Adjust versions for Tanglu 3 (Chromodoris)
+
+ -- Matthias Klumpp <mak@debian.org>  Fri, 02 Jan 2015 18:04:46 +0100
+
 base-files (8) unstable; urgency=low
 
   * Release for jessie as stable:
