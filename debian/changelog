@@ -1,3 +1,10 @@
+base-files (8tanglu2) staging; urgency=medium
+
+  * Re-add lsb-release file (TT: #149)
+  * Bump standards version to 3.9.6
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 29 Apr 2015 18:24:20 +0200
+
 base-files (8tanglu1) staging; urgency=medium
 
   * Merge changes from Debian which are useful for Tanglu as well
