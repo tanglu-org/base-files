@@ -1,3 +1,9 @@
+base-files (8tanglu3) staging; urgency=medium
+
+  * Update for Tanglu 4
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 01 Oct 2016 10:46:24 +0200
+
 base-files (8tanglu2) staging; urgency=medium
 
   * Re-add lsb-release file (TT: #149)
