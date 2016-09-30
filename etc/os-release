@@ -1,8 +1,8 @@
-PRETTY_NAME="Tanglu #OSNAME# 3 (Chromodoris)"
+PRETTY_NAME="Tanglu #OSNAME# 4 (Dasyatis)"
 NAME="Tanglu #OSNAME#"
-VERSION_ID="3"
-VERSION="3 (Chromodoris willani)"
+VERSION_ID="4"
+VERSION="4 (Dasyatis kuhlii)"
 ID=tanglu
 HOME_URL="http://www.tanglu.org/"
 SUPPORT_URL="http://tanglu.org/support"
-BUG_REPORT_URL="http://tracker.tanglu.org/"
+BUG_REPORT_URL="https://tracker.tanglu.org/"
